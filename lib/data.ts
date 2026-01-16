@@ -5,56 +5,67 @@ export const TEAMS: Team[] = [
     id: 'real-madrid',
     name: 'ריאל מדריד',
     logo: 'https://upload.wikimedia.org/wikipedia/en/5/56/Real_Madrid_CF.svg',
+    apiId: 541,
   },
   {
     id: 'man-city',
     name: 'מנצ׳סטר סיטי',
     logo: 'https://upload.wikimedia.org/wikipedia/en/e/eb/Manchester_City_FC_badge.svg',
+    apiId: 50,
   },
   {
     id: 'arsenal',
     name: 'ארסנל',
     logo: 'https://upload.wikimedia.org/wikipedia/en/5/53/Arsenal_FC.svg',
+    apiId: 42,
   },
   {
     id: 'liverpool',
     name: 'ליברפול',
     logo: 'https://upload.wikimedia.org/wikipedia/en/0/0c/Liverpool_FC.svg',
+    apiId: 40,
   },
   {
     id: 'barcelona',
     name: 'ברצלונה',
     logo: 'https://upload.wikimedia.org/wikipedia/en/4/47/FC_Barcelona_%28crest%29.svg',
+    apiId: 529,
   },
   {
     id: 'atletico',
     name: 'אתלטיקו מדריד',
     logo: 'https://upload.wikimedia.org/wikipedia/de/c/c1/Atletico_Madrid_logo.svg',
+    apiId: 530,
   },
   {
     id: 'valencia',
     name: 'ולנסיה',
     logo: 'https://upload.wikimedia.org/wikipedia/en/c/ce/Valenciacf.svg',
+    apiId: 543,
   },
   {
     id: 'sevilla',
     name: 'סביליה',
     logo: 'https://upload.wikimedia.org/wikipedia/en/3/3b/Sevilla_FC_logo.svg',
+    apiId: 536,
   },
   {
     id: 'chelsea',
     name: 'צ׳לסי',
     logo: 'https://upload.wikimedia.org/wikipedia/en/c/cc/Chelsea_FC.svg',
+    apiId: 49,
   },
   {
     id: 'man-united',
     name: 'מנצ׳סטר יונייטד',
     logo: 'https://upload.wikimedia.org/wikipedia/en/7/7a/Manchester_United_FC_crest.svg',
+    apiId: 33,
   },
   {
     id: 'tottenham',
     name: 'טוטנהאם',
     logo: 'https://upload.wikimedia.org/wikipedia/en/b/b4/Tottenham_Hotspur.svg',
+    apiId: 47,
   },
 ];
 

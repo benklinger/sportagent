@@ -2,6 +2,7 @@ export interface Team {
   id: string;
   name: string;
   logo: string;
+  apiId?: number;
 }
 
 export interface Match {
