@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion';
 import { TEAMS } from '@/lib/data';
+import { Team } from '@/lib/types';
 import Image from 'next/image';
 
 interface TeamSelectionProps {
@@ -25,13 +26,10 @@ export default function TeamSelection({ selectedTeamId, onSelect }: TeamSelectio
           }`}
         >
           <div className="relative w-16 h-16">
-            <Image
+            <img
               src={team.logo}
               alt={team.name}
-              width={64}
-              height={64}
               className="object-contain w-full h-full"
-              unoptimized
             />
           </div>
           <span className={`font-semibold text-center ${
