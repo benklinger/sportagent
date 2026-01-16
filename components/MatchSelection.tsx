@@ -1,7 +1,8 @@
 'use client';
 
 import { useMemo } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion } from 'framer-motion';
+import Image from 'next/image';
 import { MATCHES, TEAMS } from '@/lib/data';
 import { Match } from '@/lib/types';
 import { MapPin, CalendarDays } from 'lucide-react';
@@ -61,7 +62,7 @@ export default function MatchSelection({
             <div className="flex flex-col items-center gap-2 flex-1">
               <div className="w-12 h-12 relative flex items-center justify-center">
                 {awayTeam?.logo ? (
-                  <img src={awayTeam.logo} alt={awayTeam.name} className="object-contain w-full h-full" />
+                  <Image src={awayTeam.logo} alt={awayTeam.name} width={48} height={48} className="object-contain w-full h-full" />
                 ) : (
                   <div className="w-full h-full bg-gray-100 rounded-full flex items-center justify-center text-[10px] text-gray-400 font-bold">
                     LOGO
@@ -79,7 +80,7 @@ export default function MatchSelection({
             <div className="flex flex-col items-center gap-2 flex-1">
               <div className="w-12 h-12 relative flex items-center justify-center">
                 {homeTeam?.logo ? (
-                  <img src={homeTeam.logo} alt={homeTeam.name} className="object-contain w-full h-full" />
+                  <Image src={homeTeam.logo} alt={homeTeam.name} width={48} height={48} className="object-contain w-full h-full" />
                 ) : (
                   <div className="w-full h-full bg-gray-100 rounded-full flex items-center justify-center text-[10px] text-gray-400 font-bold">
                     LOGO
